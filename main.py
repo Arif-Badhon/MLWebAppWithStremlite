@@ -34,25 +34,10 @@ def main():
         p5=1
     else:
         p5=0
-    s3 = st.selectbox('Region',('Northeast', 'Northwest', 'Southeast', 'Southwest'))
-    if s3=='Northeast':
-        p6=0
-        p7=0
-        p8=0
-    elif s3=='Northwest':
-        p6=1
-        p7=0
-        p8=0
-    elif s3=='Southeast':
-        p6=0
-        p7=1
-        p8=0
-    else:
-        p6=0
-        p7=0
-        p8=1        
+    p6 = st.slider('Region',1,4)
+     
     if st.button("Predict"):
-        prediction = model.predict([[p1, p2, p3, p4, p5, p6, p7, p8]])
+        prediction = model.predict([[p1, p2, p3, p4, p5, p6]])
         st.success(f'Your insurance cost is $ {prediction[0]:.2f}') 
     if st.button("About"):
         st.text("Built with Streamlit")
