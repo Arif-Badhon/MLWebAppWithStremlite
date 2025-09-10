@@ -1,0 +1,56 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+*.pyo
+*.pyc
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+wheels/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Data and model artifacts
+data/
+*.csv
+*.tsv
+*.xlsx
+*.h5
+*.hdf5
+*.joblib
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.pt
+*.pth
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Environment variables
+.env
+.env.*
+
+# Node modules (if using JS frontend)
+node_modules/
