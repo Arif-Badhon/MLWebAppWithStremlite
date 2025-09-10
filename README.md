@@ -103,5 +103,3 @@ This project is licensed under the MIT License. See the LICENSE
 
 
 ---
-
-Do you want me to also generate a **requirements.txt** file for a minimal setup (Streamlit + sklearn + pandas), so the README is fully runnable?
